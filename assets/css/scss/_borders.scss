@@ -1,0 +1,36 @@
+// BORDERS
+
+.border {
+  background: $white;
+
+  position: fixed;
+  z-index: 999;
+}
+
+#border-top, #border-bottom {
+  height: 2rem;
+  left: 0;
+  right: 0;
+}
+
+#border-top {
+  top: 0;
+}
+
+#border-bottom {
+  bottom: 0;
+}
+
+#border-right, #border-left {
+  width: 2rem;
+  top: 0;
+  bottom: 0;
+}
+
+#border-right {
+  right: 0;
+}
+
+#border-left {
+  left: 0;
+}

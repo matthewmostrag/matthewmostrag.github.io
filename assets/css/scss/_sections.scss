@@ -1,0 +1,162 @@
+// SECTIONS
+
+#fullpage {
+
+    .section {
+
+        padding: 0 4rem;
+
+        h2 {
+            font-family: $title-font;
+            text-transform: uppercase;
+            color: $white;
+            text-align: center;
+            font-size: 7rem;
+
+            text-shadow: 0 1px 0 #ccc,
+            0 2px 0 #c9c9c9,
+            0 3px 0 #bbb,
+            0 4px 0 #b9b9b9,
+            0 5px 0 #aaa,
+            0 6px 1px rgba(0,0,0,.1),
+            0 0 5px rgba(0,0,0,.1),
+            0 1px 3px rgba(0,0,0,.3),
+            0 3px 5px rgba(0,0,0,.2),
+            0 5px 10px rgba(0,0,0,.25),
+            0 10px 10px rgba(0,0,0,.2),
+            0 20px 20px rgba(0,0,0,.15);
+
+            margin: 0;
+            margin-bottom: 2rem;
+            padding: 0 4rem;
+
+            @media screen and (max-width: 992px) {
+                font-size: 6rem;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 4.8rem;
+                margin: 1rem auto;
+            }
+        }
+
+        h3 {
+            font-family: $main-font;
+            color: $white;
+            text-align: center;
+            font-size: 4rem;
+            font-weight: normal;
+
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+
+            margin: 0;
+
+            @media screen and (max-width: 992px) {
+                font-size: 3rem;
+            }
+
+            @media screen and (max-width: 768px) {
+                font-size: 2rem;
+            }
+        }
+
+        .section-nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            position: absolute;
+            bottom: 4rem;
+            left: 50%;
+
+            transform: translateX(-50%);
+
+            i {
+                color: $white;
+                font-size: 2rem;
+
+                opacity: 0.5;
+
+                transition: opacity 0.3s;
+
+                &:hover {
+                    opacity: 1;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    #sectionOne {
+        background: linear-gradient(to right, rgba($blue,0.8), rgba($green,0.8)), url('../img/sectionOne.jpg') no-repeat center center;
+        background: -webkit-linear-gradient(left, rgba($blue,0.8), rgba($green,0.8)), url('../img/sectionOne.jpg') no-repeat center center;
+        background: -o-linear-gradient(right, rgba($blue,0.8), rgba($green,0.8)), url('../img/sectionOne.jpg') no-repeat center center;
+        background: -moz-linear-gradient(right, rgba($blue,0.8), rgba($green,0.8)), url('../img/sectionOne.jpg') no-repeat center center;
+        background-size: cover;
+
+        h3 {
+            margin-bottom: -1.5rem;
+
+            @media screen and (max-width: 768px) {
+                margin-bottom: -1rem;
+            }
+        }
+    }
+
+    #sectionTwo {
+        background: linear-gradient(to right, rgba(#B5242B,0.8), rgba(#2F2F2F,0.8)), url('../img/sectionTwo.jpg') no-repeat center center;
+        background: -webkit-linear-gradient(left, rgba(#B5242B,0.8), rgba(#2F2F2F,0.8)), url('../img/sectionTwo.jpg') no-repeat center center;
+        background: -o-linear-gradient(right, rgba(#B5242B,0.8), rgba(#2F2F2F,0.8)), url('../img/sectionTwo.jpg') no-repeat center center;
+        background: -moz-linear-gradient(right, rgba(#B5242B,0.8), rgba(#2F2F2F,0.8)), url('../img/sectionTwo.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+    #sectionThree {
+        background: linear-gradient(to right, rgba(#AE9A64,0.8), rgba(#C6C6BE,0.8)), url('../img/sectionThree.jpg') no-repeat center center;
+        background: -webkit-linear-gradient(left, rgba(#AE9A64,0.8), rgba(#C6C6BE,0.8)), url('../img/sectionThree.jpg') no-repeat center center;
+        background: -o-linear-gradient(right, rgba(#AE9A64,0.8), rgba(#C6C6BE,0.8)), url('../img/sectionThree.jpg') no-repeat center center;
+        background: -moz-linear-gradient(right, rgba(#AE9A64,0.8), rgba(#C6C6BE,0.8)), url('../img/sectionThree.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+    #sectionFour {
+        background: linear-gradient(to right, rgba(#30224A,0.8), rgba(#D7007E,0.8)), url('../img/sectionFour.jpg') no-repeat center center;
+        background: -webkit-linear-gradient(left, rgba(#30224A,0.8), rgba(#D7007E,0.8)), url('../img/sectionFour.jpg') no-repeat center center;
+        background: -o-linear-gradient(right, rgba(#30224A,0.8), rgba(#D7007E,0.8)), url('../img/sectionFour.jpg') no-repeat center center;
+        background: -moz-linear-gradient(right, rgba(#30224A,0.8), rgba(#D7007E,0.8)), url('../img/sectionFour.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+    #sectionFive {
+        background: linear-gradient(to right, rgba(#6A7B87,0.8), rgba(#C8DDE0,0.8)), url('../img/sectionFive.jpg') no-repeat center center;
+        background: -webkit-linear-gradient(left, rgba(#6A7B87,0.8), rgba(#C8DDE0,0.8)), url('../img/sectionFive.jpg') no-repeat center center;
+        background: -o-linear-gradient(right, rgba(#6A7B87,0.8), rgba(#C8DDE0,0.8)), url('../img/sectionFive.jpg') no-repeat center center;
+        background: -moz-linear-gradient(right, rgba(#6A7B87,0.8), rgba(#C8DDE0,0.8)), url('../img/sectionFive.jpg') no-repeat center center;
+        background-size: cover;
+    }
+
+    .index-footer {
+        text-align: center;
+        font-size: 6.4rem;
+        font-family: $main-font;
+        background: $white;
+
+        padding: 6rem 4rem 7rem 4rem;
+
+        a {
+            color: $black;
+            text-decoration: none;
+
+            &:hover {
+                background: -webkit-linear-gradient(left, $blue, $green);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            i {
+                font-size: 4.8rem;
+            }
+        }
+    }
+
+}
