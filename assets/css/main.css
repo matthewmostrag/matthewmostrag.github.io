@@ -91,8 +91,7 @@ html {
         font-size: 6rem; } }
     @media screen and (max-width: 768px) {
       #fullpage .section h2 {
-        font-size: 4.8rem;
-        margin: 1rem auto; } }
+        font-size: 3.5rem; } }
   #fullpage .section h3 {
     font-family: "mobile-sans";
     color: #EEE;
@@ -129,11 +128,18 @@ html {
   background: -o-linear-gradient(right, rgba(49, 210, 187, 0.8), rgba(66, 197, 107, 0.8)), url("../img/sectionOne.jpg") no-repeat center center;
   background: -moz-linear-gradient(right, rgba(49, 210, 187, 0.8), rgba(66, 197, 107, 0.8)), url("../img/sectionOne.jpg") no-repeat center center;
   background-size: cover; }
+  @media screen and (max-width: 768px) {
+    #fullpage #sectionOne {
+      background: linear-gradient(to right, rgba(49, 210, 187, 0.8), rgba(66, 197, 107, 0.8)), url("../img/sectionOne.jpg") no-repeat -22rem center;
+      background: -webkit-linear-gradient(left, rgba(49, 210, 187, 0.8), rgba(66, 197, 107, 0.8)), url("../img/sectionOne.jpg") no-repeat -22rem center;
+      background: -o-linear-gradient(right, rgba(49, 210, 187, 0.8), rgba(66, 197, 107, 0.8)), url("../img/sectionOne.jpg") no-repeat -22rem center;
+      background: -moz-linear-gradient(right, rgba(49, 210, 187, 0.8), rgba(66, 197, 107, 0.8)), url("../img/sectionOne.jpg") no-repeat -22rem center;
+      background-size: cover; } }
   #fullpage #sectionOne h3 {
     margin-bottom: -1.5rem; }
     @media screen and (max-width: 768px) {
       #fullpage #sectionOne h3 {
-        margin-bottom: -1rem; } }
+        margin-bottom: -0.5rem; } }
 #fullpage #sectionTwo {
   background: linear-gradient(to right, rgba(181, 36, 43, 0.8), rgba(47, 47, 47, 0.8)), url("../img/sectionTwo.jpg") no-repeat center center;
   background: -webkit-linear-gradient(left, rgba(181, 36, 43, 0.8), rgba(47, 47, 47, 0.8)), url("../img/sectionTwo.jpg") no-repeat center center;
