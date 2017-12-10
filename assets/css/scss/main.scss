@@ -1,15 +1,19 @@
-// MAIN STYLES FILE
+body {
+  background: #FFF;
+  //background: -webkit-linear-gradient(right, #31d2bb, #42c56b);
+  //background: -o-linear-gradient(left, #31d2bb, #42c56b);
+  //background: -moz-linear-gradient(left, #31d2bb, #42c56b);
+  //background: linear-gradient(left, #31d2bb, #42c56b);
 
-// Tools
-@import 'fonts';
+  height: 100vh;
+  overflow: hidden;
 
-// Variables
-@import 'variables';
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-// Basic styles
-@import 'reset';
-
-// Components
-@import 'borders';
-@import 'sections';
-@import 'buttons';
+  #m2-logo img {
+    width: 150px;
+    height: 150px;
+  }
+}
